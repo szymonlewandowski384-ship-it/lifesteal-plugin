@@ -1,0 +1,25 @@
+name: Lifesteal
+main: com.lifesteal.plugin.LifestealPlugin
+version: 1.0.0
+api-version: 1.21
+authors: ["generated"]
+commands:
+  withdrawheart:
+    description: Wyplac serce (usunie 1 serce z twojego maks zdrowia i da przedmiot)
+    usage: /withdrawheart
+    permission: lifesteal.withdraw
+  createheart:
+    description: Stworz serce (admin/perm)
+    usage: /createheart [ilosc]
+    permission: lifesteal.create
+  revive:
+    description: Wskrzeszenie gracza (op)
+    usage: /revive <gracz>
+    permission: lifesteal.revive
+permissions:
+  lifesteal.withdraw:
+    default: op
+  lifesteal.create:
+    default: op
+  lifesteal.revive:
+    default: op

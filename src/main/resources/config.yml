@@ -1,0 +1,15 @@
+# Lifesteal config
+heart-item:
+  material: RED_DYE
+  display-name: "&cSerce Gracza"
+  lore:
+    - "&7Ukradzione serce - wstaw w rece (prawy przycisk)"
+created-heart-item:
+  material: RED_DYE
+  display-name: "&aStworzone Serce"
+  lore:
+    - "&7To serce mozna wplacic tylko jesli masz ponizej 10 serc"
+storage-file: players.yml
+min-hearts: 1 # minimalna liczba serc (w sercach, nie w HP). Domyslnie 1 (2 HP)
+max-hearts: 20
+default-hearts: 10
